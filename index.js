@@ -69,10 +69,6 @@ function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-function clamp(val, max) {
-    return Math.max(Math.min(val, max), 0);
-}
-
 function startSimulation() {
     const canvas = document.getElementById("canvas");
 
